@@ -29,7 +29,7 @@ function task_done(id){
     function show_form(form_id){
         
         $("form").hide();
-
+        $('#task_title').val('');    
         $('#'+form_id).show("slow");
 
     }
