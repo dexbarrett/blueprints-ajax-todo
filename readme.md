@@ -1,3 +1,5 @@
+# Laravel Ajaxified Todo App
+
 ## Improvements
 
 * Removed obstrusive javascript by using event delegation
