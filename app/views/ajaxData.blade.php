@@ -1,1 +1,1 @@
-<li id="{{$todo->id}}"><a href="#" class="toggle"></a> <span id="span_{{$todo->id}}">{{$todo->title}}</span><a href="#" class="icon-delete">Delete</a> <a href="#" class="icon-edit">Edit</a></li>
+<li id="{{$todo->id}}" class="{{ $todo->isDoneClass() }}"><a href="#" class="toggle"></a> <span id="span_{{$todo->id}}">{{$todo->title}}</span><a href="#" class="icon-delete">Delete</a> <a href="#" class="icon-edit">Edit</a></li>
